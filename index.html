@@ -1,0 +1,196 @@
+<div class="skill">
+                        <div class="info"><span>Excell</span><span>90</span></div>
+                        <div class="bar"><div class="progress" style="--w:80%"></div></div>
+                    </div><!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sulaiman | Software Engineer</title>
+    <meta name="description" content="Portfolio of Sulaiman, a software engineer building websites, applications and business systems with Python and JavaScript.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600&family=Space+Grotesk:wght@400;500;700&display=swap" rel="stylesheet">
+    <meta property="og:title" content="Sulaiman | Software Engineer">
+    <meta property="og:description" content="Websites, applications and business systems built with Python and JavaScript.">
+    <meta name="theme-color" content="#0b1220">
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 32 32%27%3E%3Crect width=%2732%27 height=%2732%27 rx=%277%27 fill=%27%230b1220%27/%3E%3Ctext x=%2716%27 y=%2723%27 font-size=%2720%27 font-family=%27monospace%27 font-weight=%27bold%27 text-anchor=%27middle%27 fill=%27%235cc8ff%27%3E%26gt;_%3C/text%3E%3C/svg%3E">
+    <link rel="stylesheet" href="style.css">
+    <script>
+        document.documentElement.classList.add('js');
+        try { var t = localStorage.getItem('theme'); if (t) document.documentElement.dataset.theme = t; } catch (e) {}
+    </script>
+</head>
+<body>
+
+    <div class="progress-top" id="progressTop"></div>
+
+    <header class="topbar">
+        <a class="logo" href="#home">sulaiman<span>.dev</span></a>
+        <button class="menu" id="menu" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="nav">Menu</button>
+        <nav id="nav" aria-label="Main">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+        <button class="theme" id="theme" type="button" aria-label="Switch light or dark theme">Theme</button>
+    </header>
+
+    <main>
+        <!-- Home -->
+        <section id="home" class="hero">
+            <div class="hero-text">
+                <p class="status"><span class="pulse"></span> Open to work</p>
+                <h1>Hi, I’m Sulaiman</h1>
+                <p class="typed-line"><span class="prompt">&gt;</span> <span id="typed">Software Engineer</span><span class="cursor"></span></p>
+                <p class="about-short">
+                    I build websites, applications and business systems with Python, HTML, CSS,
+                    JavaScript and databases.
+                </p>
+                <div class="actions">
+                    <a class="btn primary" href="#projects">View projects</a>
+                    <a class="btn" href="#contact">Contact me</a>
+                </div>
+            </div>
+
+            <div class="photo-wrap">
+                <div class="photo">
+                    <span class="initial" aria-hidden="true">S</span>
+                    <!-- Put your picture in the same folder and name it photo.jpg -->
+                    <img src="photo.jpg" alt="Portrait of Sulaiman" onerror="this.style.display='none'">
+                </div>
+                <div class="chip chip-a">Python</div>
+                <div class="chip chip-b">JavaScript</div>
+                <div class="chip chip-c">MySQL</div>
+                <div class="chip chip-d">HTML</div>
+            </div>
+        </section>
+
+        <!-- About -->
+        <section id="about">
+            <h2 class="section-title">About me</h2>
+            <div class="about-grid">
+                <p>
+                    I am a software engineer who builds websites, applications and business systems.
+                    I love creating market systems, AI apps and web platforms, and I enjoy turning
+                    a real problem into software that people can use every day.
+                </p>
+                <div class="editor terminal" aria-label="Interactive terminal about Sulaiman">
+                    <div class="editor-bar">
+                        <span class="dot"></span><span class="dot"></span><span class="dot"></span>
+                        <span class="filename">sulaiman@portfolio: ~</span>
+                    </div>
+                    <div class="term-out" id="termOut" role="log" aria-live="polite"></div>
+                    <div class="term-buttons" aria-label="Run a command">
+                        <button type="button" data-cmd="whoami">whoami</button>
+                        <button type="button" data-cmd="skills">skills</button>
+                        <button type="button" data-cmd="projects">projects</button>
+                        <button type="button" data-cmd="contact">contact</button>
+                        <button type="button" data-cmd="clear">clear</button>
+                    </div>
+                    <form class="term-form" id="termForm" autocomplete="off">
+                        <label for="termIn" class="prompt">$</label>
+                        <input id="termIn" type="text" placeholder="or type a command, e.g. help" spellcheck="false">
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills -->
+        <section id="skills">
+            <h2 class="section-title">Skills</h2>
+            <div class="skills-grid">
+                <div class="skills">
+                    <div class="skill">
+                        <div class="info"><span>Web Development</span><span>100%</span></div>
+                        <div class="bar"><div class="progress" style="--w:100%"></div></div>
+                    </div>
+                    <div class="skill">
+                        <div class="info"><span>Networking</span><span>90%</span></div>
+                        <div class="bar"><div class="progress" style="--w:90%"></div></div>
+                    </div>
+                    <div class="skill">
+                        <div class="info"><span>Data Analysis</span><span>85%</span></div>
+                        <div class="bar"><div class="progress" style="--w:85%"></div></div>
+                    </div>
+                    <div class="skill">
+                        <div class="info"><span>Critical Thinking</span><span>90%</span></div>
+                        <div class="bar"><div class="progress" style="--w:90%"></div></div>
+                    </div>
+
+
+                </div>
+                <ul class="tags" aria-label="Technologies">
+                    <li>Python</li><li>JavaScript</li><li>HTML</li><li>CSS</li>
+                    <li>SQL</li><li>REST APIs</li><li>TCP/IP</li><li>Git</li>                    <li>Clouding Computer</li>
+
+                </ul>
+            </div>
+        </section>
+
+        <!-- Projects -->
+        <section id="projects">
+            <h2 class="section-title">Projects</h2>
+            <div class="project-container">
+                <article class="project">
+                    <div class="tab">supermarket-website</div>
+                    <h3>Supermarket Website</h3>
+                    <p>Online supermarket with backend and API.</p>
+                    <ul class="tags small"><li>Web</li><li>Backend</li><li>API</li></ul>
+                </article>
+                <article class="project">
+                    <div class="tab">market-management.py</div>
+                    <h3>Market Management System</h3>
+                    <p>Python system for managing products and sales.</p>
+                    <ul class="tags small"><li>Python</li><li>Database</li></ul>
+                </article>
+                <article class="project">
+                    <div class="tab">tcp-ip-app</div>
+                    <h3>TCP/IP Learning App</h3>
+                    <p>Educational app to learn networking.</p>
+                    <ul class="tags small"><li>Networking</li><li>Education</li></ul>
+                </article>
+                <article class="project">
+                    <div class="tab">cctv-solar-installation</div>
+                    <h3>CCTV and Solar - installation</h3>
+                    <p>Security popurpose </p>
+                        <ul class="tags small"><li>NVR-DVR</li><li>Solar panel-Inverter</li></ul>
+                </article>
+            </div>
+        </section>
+
+        <!-- Contact -->
+        <section id="contact">
+            <h2 class="section-title">Contact</h2>
+            <p class="lead">Have a project or a job in mind? Reach out and I will reply as soon as I can.</p>
+            <div class="contact-cards">
+                <div class="card">
+                    <h3>Email</h3>
+                    <a href="mailto:marahsulaiman090@gmail.com">marahsulaiman090@gmail.com</a>
+                    <button class="btn small-btn" id="copy" type="button" data-copy="marahsulaiman090@gmail.com">Copy email</button>
+                </div>
+                <div class="card">
+                    <h3>Phone</h3>
+                    <a href="tel:+23275595520">+232 75595520</a>
+                    <a class="btn small-btn" href="https://wa.me/23275595520" target="_blank" rel="noopener">WhatsApp</a>
+                </div>
+                <div class="card">
+                    <h3>Address</h3>
+                    <address>1f Lower Piper Line,<br>Off Wilkinson Road,<br>Big House.</address>
+                </div>
+            </div>
+            <a class="btn primary big" href="mailto:marahsulaiman090@gmail.com?subject=Hello%20Sulaiman">Send me an email</a>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2026 Sulaiman. Built with HTML, CSS and JavaScript.</p>
+    </footer>
+
+    <a class="to-top" id="toTop" href="#home" aria-label="Back to top">Top</a>
+
+    <script src="script.js"></script>
+</body>
+</html>
