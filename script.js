@@ -2,7 +2,7 @@ const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').match
 
 // 1. Typing effect for the role line
 const typed = document.getElementById('typed');
-const roles = ['Software Engineer', 'Web Developer', 'Python Developer'];
+const roles = ['Software Engineer', 'Web Developer', 'Python Developer','Hardware Engineer','Clouding Engineer'];
 
 if (typed && !reduceMotion) {
     let r = 0, c = 0, deleting = false;
